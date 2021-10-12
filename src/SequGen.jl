@@ -17,6 +17,8 @@ Compute a sample in the given `range`.
 """
 function sample end
 
+include("composite/operation.jl")
+include("composite/transformation.jl")
 include("deterministic/constant.jl")
 include("deterministic/trend.jl")
 include("sthocastic/gaussian-noise.jl")
